@@ -1,0 +1,292 @@
+@import "reset.css";
+@font-face {
+  font-family: "hacked";
+  src: url("../fonts/hacked.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "oswald";
+  src: url("../fonts/Oswald.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400;
+}
+body{
+  width: 1920px;
+
+}
+h1{
+
+  font-family: oswald;
+  font-size: 100px;
+  color: white;
+}
+h2{
+
+  font-family: oswald;
+  font-size: 50px;
+  color: white;
+  line-height: normal;
+}
+.owersnow{
+  height: 1600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-top: 0px;
+}
+.snow{
+  display: inline-flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  width: 100vw;
+}
+#snow{
+  position: relative;
+  width: 51px;
+  height: inherit;
+  z-index: 1;
+}
+.box{
+  background-color: #001251;
+  width: 100vw;
+  height: 7000px;
+  position: absolute;
+  z-index: 0;
+}
+#fon{
+  position: absolute;
+  z-index: 2;
+  margin-top: -1300px;
+  width: 100vw;
+
+}
+.red{
+  color: #E63518;
+}
+.box1{
+
+  width: 100vw;
+  position: relative;
+  z-index: 10;
+
+}
+.text1 {
+  position: absolute;
+  margin-top: -1500px;
+  margin-left: 200px;
+}
+.text2{
+  position: absolute;
+  margin-top: -1500px;
+  margin-left: 1300px;
+}
+.box2{
+  width: 100vw;
+  position: relative;
+  z-index: 10;
+
+}
+.text3{
+  position: absolute;
+  margin-top: -750px;
+  margin-left: 200px;
+}
+.box3{
+  width: 100vw;
+  position: relative;
+  z-index: 10;
+
+}
+.text4{
+  position: absolute;
+  margin-top: 50px;
+  margin-left: 1300px;
+}
+.box4{
+  width: 100vw;
+  position: relative;
+  z-index: 10;
+
+}
+.text5{
+  position: absolute;
+  margin-top: 1000px;
+  margin-left: 200px;
+}
+.box5{
+  width: 100vw;
+  position: relative;
+  z-index: 10;
+
+}
+.text6{
+  position: absolute;
+  margin-top: -715px;
+  margin-left: 1300px;
+}
+.text7{
+  position: absolute;
+  margin-top: 500px;
+  margin-left: 200px;
+}
+.text8{
+  position: absolute;
+  margin-top: 1000px;
+  margin-left: 200px;
+}
+.text9{
+
+  position: absolute;
+  margin-top: 1600px;
+  margin-left: 1300px;
+}
+.text9 h2{
+  font-family: hacked;
+  font-size: 60px;
+}
+.text10{
+  position: absolute;
+  margin-top: 2110px;
+  margin-left: 200px;
+}
+.text10 h2{
+  font-family: hacked;
+  font-size: 60px;
+}
+.text11{
+  position: absolute;
+  margin-top: 4245px;
+  margin-left: 200px;
+}
+.text11 h1{
+  font-family: hacked;
+  font-size: 180px;
+}
+.tv{
+  margin-top: -900px;
+  position: absolute;
+  z-index: 5;
+  width: 100vw;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+.owerglich{
+  margin-top: 1845px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+}
+.glich{
+  display: inline-flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  width: 100vw;
+}
+.pixel{
+  position: relative;
+  z-index: 3;
+  width: 58px;
+  height: 58px;
+  background-color: #E20E17;
+}
+.pixel2{
+  position: relative;
+  z-index: 3;
+  width: 58px;
+  height: 58px;
+  background-color: #6BC4CA;
+}
+.pixel3{
+  position: relative;
+  z-index: 3;
+  width: 58px;
+  height: 58px;
+  background-color: #FEEB17;
+}
+.pixel4{
+  position: relative;
+  z-index: 3;
+  width: 58px;
+  height: 58px;
+  background-color: #C64693;
+}
+.pixel5{
+  position: relative;
+  z-index: 3;
+  width: 58px;
+  height: 58px;
+  background-color: #FFFFFF;
+}
+.owerglich2{
+  margin-top: 2400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+}
+.owersetka{
+  position: absolute;
+  z-index: 3;
+  width: 100vw;
+  top: 2975px;
+}
+.setka1{
+  display: flex;
+  opacity: 0.06;
+}
+.setka2{
+  display: flex;
+  opacity: 0.12;
+}
+.setka3{
+  display: flex;
+  opacity: 0.26;
+
+}
+.setka4{
+  display: flex;
+  opacity: 0.67;
+}
+.setka{
+  display: flex;
+
+}
+.pix{
+  width: 120px;
+  height: 120px;
+  border: 5px solid #6BC4CA;
+}
+.had{
+  margin-top: -510px;
+  margin-left: -375px;
+  position: relative;
+  z-index: 5;
+  width: 100vw;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+.had2{
+  margin-top: 100px;
+  margin-left: 490px;
+  position: absolute;
+  z-index: 5;
+  width: 100vw;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+.tv2{
+  margin-top: 2300px;
+  position: absolute;
+  z-index: 5;
+  width: 100vw;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
