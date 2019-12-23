@@ -1,0 +1,12 @@
+@media (max-width: 1680px){
+  body{
+    width: 1680px;
+  }
+
+  h1{
+    font-size: 90px;
+  }
+  h2{
+    font-size: 40px;
+  }
+}
